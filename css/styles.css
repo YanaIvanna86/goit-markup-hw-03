@@ -45,21 +45,18 @@ address {
     margin: 0 auto;
 }
 
-.header{
+
+.top-line {
     border-bottom: 1px solid #e7e9fc;
 }
 
-
-.top-line {
-       
-}
-
-.top-line-flex{
+.container-top-line{
     display: flex;
 }
 
 .top-line-nav {
     display: flex;
+    align-items: center;
 }
 
 .top-nav-logo {
@@ -170,7 +167,7 @@ address {
     border-radius: 4px;
     display: block;
     margin: auto;
-    min-width: 196px;
+    min-width: 169px;
     height: 56px;
     border: none;
 }
@@ -251,7 +248,7 @@ address {
 
 .team-item {
     background: #ffffff;
-    border-radius: 4px;
+    border-radius: 0 0 4px 4px;
 }
 .container-team-item {
     padding-top: 32px;
